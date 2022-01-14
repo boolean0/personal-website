@@ -1,0 +1,136 @@
+
+
+.all-container{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%; 
+    /* border: 1px solid blue;  */
+    height: 91%; 
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+
+.my-name{
+    display: block;
+    text-align: center; 
+
+}
+
+.icon-item{
+    color:black; 
+}
+
+.sidebar-wrapper{
+    display: flex; 
+    flex-direction: row; 
+    height: 100%; 
+    width: 30%; 
+    align-items: center; 
+    /* border: 4px solid green;  */
+    padding-left: 3%; 
+}
+.sidebar-container{
+    display: flex; 
+    flex-direction: column; 
+    width: 100%; 
+    align-items: center; 
+}
+
+.my-image{
+    max-width: 60%; 
+    height: auto;
+}
+
+.icon-row{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+}
+
+.icon-item{
+    margin: 10px;
+    justify-content: center; 
+}
+
+.about-me{
+
+    max-width: 801.31px;
+    width: 100%; 
+    padding-bottom: 4%;
+}
+
+
+
+.project-container{
+     /* border: 1px solid red;      */
+}
+
+.text-block{
+    border-left: 1px solid black;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 70%;
+}
+
+.vert-line{
+    border-left: 1px solid black; 
+    height: 70%;
+}
+
+@media only screen and (max-width: 950px) {
+    .all-container{
+        display: flex; 
+        flex-direction: column; 
+    }
+
+    .my-image{
+        width: 30%; 
+        height: 50%;
+        /* border: 1px solid yellow; */
+    }
+
+    .sidebar-wrapper{
+        display: grid;
+    }
+
+    .sidebar-container{
+        border-bottom: 1px solid black;
+        flex-direction: row; 
+        width: 100%;
+    }
+
+    .sidebar-wrapper{
+        width: 70%; 
+    }
+
+    .text-block{
+        border: none;
+    }
+    .icon-row{
+        flex-direction: column;
+        padding-left: 5%; 
+        padding-right: 5%;
+
+    } 
+
+    .about-me{
+        margin-top: 15%; 
+    }
+
+    .my-name{
+        margin: auto;
+    }
+    .my-image{
+        margin:auto;
+    }
+    
+
+
+  }
