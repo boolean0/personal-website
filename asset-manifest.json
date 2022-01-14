@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.953d9519.css",
+    "main.css": "/personal-website/static/css/main.49ac7a81.css",
     "main.js": "/personal-website/static/js/main.15f02396.js",
     "static/media/running-from-res.png": "/personal-website/static/media/running-from-res.792c37a027b47d58c93c.png",
     "static/media/notebooks.PNG": "/personal-website/static/media/notebooks.e2707a22bf456c9a2965.PNG",
@@ -8,11 +8,11 @@
     "static/media/viral-learning.png": "/personal-website/static/media/viral-learning.418c3add0afff53c80ce.png",
     "static/media/Matt Huang Resume.pdf": "/personal-website/static/media/Matt Huang Resume.adca4332a741aaa8fc82.pdf",
     "index.html": "/personal-website/index.html",
-    "main.953d9519.css.map": "/personal-website/static/css/main.953d9519.css.map",
+    "main.49ac7a81.css.map": "/personal-website/static/css/main.49ac7a81.css.map",
     "main.15f02396.js.map": "/personal-website/static/js/main.15f02396.js.map"
   },
   "entrypoints": [
-    "static/css/main.953d9519.css",
+    "static/css/main.49ac7a81.css",
     "static/js/main.15f02396.js"
   ]
 }
