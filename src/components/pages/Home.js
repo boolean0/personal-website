@@ -42,16 +42,18 @@ function Home(){
         <div className = 'text-block'>
             <div className = 'about-me'>
                 <h1> About Me</h1>
-                <p className = 'about-me-text'>Hi! I'm Matt! <br/> <br/> I'm a first-year Computer Science /
-                BBA double degree student at the University of Waterloo. I've built this website to express a little bit about myself: 
-                My work, interests, thoughts and hobbies. <br/> <br/> I'm passionate about discovering and learning about how technology can be leveraged to enhance what we are currently capable of. 
-                To showcase this, I've created a few projects that highlight the helpful traits of technology, which can be found under <Link to = '/projects'> Projects</Link>.  
-                I've also had many great mentors along the way, which is why I'm equally devoted to leading and helping others wherever I can. A snapshot of these experiences can be found under <Link to = '/leadership'> Leadership</Link>. <br/> <br/>
-                
-                Outside of these interests, my hobbies include badminton and volleyball, playing the guitar and cooking food from various cuisines. I love expanding my horizons and pushing my skills, which 
-                is probably why my hobbies seem so unrelated. <br/> <br/>
-                
-                If you'd like a TL;DR of this website, my resume is available <a href = {Resume}> here</a>. If you'd like to contact me, you're welcome to do so through my <a href = "https://www.linkedin.com/in/matt-huang-207146221"> LinkedIn</a> or through my <a href = "mailto: matthuang03@gmail.com"> e-mail.</a> </p> 
+                <p className = 'about-me-text'>Hi! I'm Matt! <br/> <br/> I'm a second-year Computer Science /
+                BBA double degree student at the University of Waterloo. I've built this website to express a little bit about myself. <br/> <br/>
+                <ul> 
+                    <li> I’m passionate about learning how technology can create social value and the <Link to = '/projects'> projects</Link> on this site reflect my progress in discovering this field </li>
+                    <li> I’ve had amazing mentors along the way and am equally devoted to <Link to = '/leadership'> leading </Link> others too </li>
+                    <li> I’m a sports and music fanatic, as well as an (amateur) cook. </li>
+                        <ul>
+                            <li> (These hobbies probably seem so unrelated because I love expanding my horizons and pushing my skills) </li>
+                        </ul>
+                    <li> Feel free to use the icons by my picture to see my resume or contact me! </li>
+                </ul>
+                </p> 
             </div>
 
              {/* <div className = 'project-container'> 
